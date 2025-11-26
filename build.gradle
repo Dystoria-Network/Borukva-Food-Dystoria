@@ -15,6 +15,10 @@ repositories {
 	maven { url "https://api.modrinth.com/maven/" }
 	mavenCentral()
 	mavenLocal()
+    maven {
+        name = "Cobblemon"
+        url = "https://maven.impactdev.net/repository/development/"
+    }
 }
 
 fabricApi {
@@ -37,6 +41,8 @@ dependencies {
 	modImplementation ("eu.pb4:polymer-resource-pack:[${polymer_version}]")
 	modImplementation ("eu.pb4:polymer-virtual-entity:[${polymer_version}]")
 	modImplementation ("eu.pb4:polymer-autohost:${polymer_version}")
+
+    modImplementation "com.cobblemon:fabric:${project.cobblemon_version}"
 
 	modImplementation include ("eu.pb4:factorytools:[${factorytools_version}]")
 	modImplementation include ("eu.pb4:sgui:[${sgui_version}]")

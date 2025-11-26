@@ -1,5 +1,6 @@
 package com.opryshok.datagen;
 
+import com.cobblemon.mod.common.CobblemonItems;
 import com.opryshok.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -39,7 +40,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addCropDrop(CUCUMBER, ModItems.CUCUMBER, ModItems.CUCUMBER_SEEDS);
         addCropDrop(ONION, ModItems.ONION, ModItems.ONION_SEEDS);
         addCropDrop(ENDER_INFECTED_ONION, ModItems.ENDER_INFECTED_ONION, ModItems.ENDER_INFECTED_ONION_SEEDS);
-        addCropDrop(RICE, ModItems.RICE_PANICLE, ModItems.RICE);
+        addCropDrop(RICE, CobblemonItems.HEARTY_GRAIN_BALE, CobblemonItems.HEARTY_GRAINS);
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(NETHER_WHEAT)
                 .properties(StatePredicate.Builder.create().exactMatch(Properties.AGE_7, 7));
         addDrop(NETHER_WHEAT, cropDrops(NETHER_WHEAT, ModItems.NETHER_WHEAT, ModItems.NETHER_WHEAT_SEEDS, builder));
