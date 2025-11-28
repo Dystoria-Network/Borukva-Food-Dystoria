@@ -23,11 +23,11 @@
                   }
                 }
               ],
-              "name": "borukva-food:rice_panicle"
+              "name": "cobblemon:hearty_grains"
             },
             {
               "type": "minecraft:item",
-              "name": "borukva-food:rice"
+              "name": "cobblemon:hearty_grain_bale"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "borukva-food:rice_panicle"
+          "name": "cobblemon:hearty_grains"
         }
       ],
       "rolls": 1.0
