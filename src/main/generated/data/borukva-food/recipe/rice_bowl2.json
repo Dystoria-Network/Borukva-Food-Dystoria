@@ -6,7 +6,7 @@
       "item": "minecraft:bowl"
     },
     "R": {
-      "item": "cobblemon:hearty_grains"
+      "item": "borukva-food:rice"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "borukva-food:rice_bowl"
+    "id": "borukva-food:"
   }
 }
